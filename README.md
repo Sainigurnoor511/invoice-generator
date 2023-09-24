@@ -24,22 +24,36 @@ To run the Invoice Generator, you need to have Python installed on your system. 
 
 You can install the required libraries using pip:
 
-`pip install docxtpl` or `pip3 install docxptl`
+```bash
+pip install docxtpl
+```
+
+<p align= center > or <p> 
+
+```bash
+pip3 install docxptl
+```
 
 Usage
 -----
 
 1.  Clone this repository to your local machine.
 
-`git clone https://github.com/Sainigurnoor511/invoice-generator.git`
+```bash
+git clone https://github.com/Sainigurnoor511/invoice-generator.git
+```
 
 2.  Navigate to the project directory.
 
-`cd invoice-generator`
+```bash
+cd invoice-generator
+```
 
 3.  Run the application.
 
-`python invoice_generator.py`
+```bash
+python invoice_generator.py
+```
 
 4.  Use the application to create and customize your invoices.
 
