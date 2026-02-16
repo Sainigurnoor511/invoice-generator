@@ -20,51 +20,52 @@ Requirements
 To run the Invoice Generator, you need to have Python installed on your system. Additionally, you will need the following Python libraries:
 
 -   Tkinter (should come with most Python installations)
--   fpdf (to generate PDF files)
+-   docxtpl (to generate docx/word files)
 
 You can install the required libraries using pip:
 
-bashCopy code
+```bash
+pip install docxtpl
+```
 
-`pip install fpdf`
+<p align= center > or <p> 
+
+```bash
+pip3 install docxptl
+```
 
 Usage
 -----
 
 1.  Clone this repository to your local machine.
 
-bashCopy code
+```bash
+git clone https://github.com/Sainigurnoor511/invoice-generator.git
+```
 
-`git clone https://github.com/yourusername/invoice-generator.git`
+2.  Navigate to the project directory.
 
-1.  Navigate to the project directory.
+```bash
+cd invoice-generator
+```
 
-bashCopy code
+3.  Run the application.
 
-`cd invoice-generator`
+```bash
+python invoice_generator.py
+```
 
-1.  Run the application.
+4.  Use the application to create and customize your invoices.
 
-bashCopy code
-
-`python invoice_generator.py`
-
-1.  Use the application to create and customize your invoices.
-
-Screenshots
+<!-- Screenshots
 -----------
 
-![Invoice Generator Screenshot](https://chat.openai.com/c/screenshots/screenshot.png)
+![Invoice Generator Screenshot](https://chat.openai.com/c/screenshots/screenshot.png) -->
 
 Contributing
 ------------
 
 If you would like to contribute to this project, please open an issue or submit a pull request with your proposed changes. We welcome any contributions that can improve the functionality or user experience of the Invoice Generator.
-
-License
--------
-
-This project is licensed under the MIT License. See the [LICENSE](https://chat.openai.com/c/LICENSE) file for details.
 
 Acknowledgments
 ---------------
@@ -75,7 +76,7 @@ Acknowledgments
 Contact
 -------
 
-If you have any questions or suggestions, please feel free to contact us at <your.email@example.com>.
+If you have any questions or suggestions, please feel free to contact me at <sainigurnoor511@gmail.com>.
 
 * * * * *
 
